@@ -1,608 +1,383 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Skyline Studio — разработка современных сайтов, лендингов и веб-решений для бизнеса.">
 
     <title>Skyline Studio</title>
 
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+    >
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-
-    <header>
-
-        <a href="#home" class="header-logo" aria-label="Skyline Studio">
-            <img
-                src="images/logo.png"
-                alt="Skyline Studio"
-            >
-        </a>
-
-        <button class="menu-toggle" aria-label="Открыть меню">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-
-        <nav class="main-nav">
-            <a href="#home">Главная</a>
-            <a href="#services">Услуги</a>
-            <a href="#portfolio">Портфолио</a>
-            <a href="#about">О нас</a>
-            <a href="#contacts">Контакты</a>
-        </nav>
-
-    </header>
-
-
-    <main class="hero" id="home">
-
-        <div class="hero-content">
-
-            <p class="hero-label">
-                Веб-студия нового поколения
-            </p>
-
-            <h1>
-                Создаём сайты, которые работают на ваш бизнес
-            </h1>
-
-            <p class="hero-text">
-                Разрабатываем современные сайты, лендинги и веб-решения
-                с индивидуальным дизайном.
-            </p>
-
-            <a href="#contacts" class="hero-button">
-                Обсудить проект
-            </a>
-
-        </div>
-
-    </main>
-
-
-    <section class="section services reveal" id="services">
-
-        <p class="section-label">
-            Что мы делаем
-        </p>
-
-        <h2>
-            Наши услуги
-        </h2>
-
-        <div class="services-grid">
-
-            <article class="service-card">
-
-                <span>01</span>
-
-                <h3>
-                    Лендинги
-                </h3>
-
-                <p>
-                    Создаём современные посадочные страницы
-                    для услуг, продуктов и рекламных кампаний.
-                </p>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <span>02</span>
-
-                <h3>
-                    Корпоративные сайты
-                </h3>
-
-                <p>
-                    Разрабатываем сайты компаний с удобной
-                    структурой и системой управления контентом.
-                </p>
-
-            </article>
-
-
-            <article class="service-card">
-
-                <span>03</span>
-
-                <h3>
-                    Разработка на MODX
-                </h3>
-
-                <p>
-                    Создаём и дорабатываем сайты на MODX,
-                    подключаем шаблоны и динамический контент.
-                </p>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <section class="section portfolio reveal" id="portfolio">
-
-        <p class="section-label">
-            Наши работы
-        </p>
-
-        <h2>
-            Портфолио
-        </h2>
-
-        <p class="portfolio-description">
-            Несколько проектов, над которыми мы уже работали.
-            От идеи и дизайна до адаптивной вёрстки и запуска.
-        </p>
-
-
-        <div class="portfolio-grid">
-
-
-            <!-- Проект Павла -->
-
-            <article class="project-card project-card-large">
-
-                <div class="project-preview project-preview-pavel">
-
-                    <div class="project-browser">
-
-                        <div class="browser-bar">
-
-                            <div class="browser-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                            <div class="browser-address">
-                                pavel969188.github.io/Pavel
-                            </div>
-
-                        </div>
-
-
-                        <div class="browser-page pavel-page">
-
-                            <div class="mock-navigation">
-
-                                <div class="mock-logo">
-                                    P.
-                                </div>
-
-                                <div class="mock-nav-lines">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-
-                            </div>
-
-
-                            <div class="mock-hero">
-
-                                <p>
-                                    WEB DEVELOPER
-                                </p>
-
-                                <h4>
-                                    Pavel
-                                    <br>
-                                    Portfolio
-                                </h4>
-
-                                <div class="mock-button">
-                                    View projects
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="project-info">
-
-                    <div class="project-meta">
-
-                        <span class="project-number">
-                            01
-                        </span>
-
-                        <span class="project-type">
-                            Сайт-визитка
-                        </span>
-
-                    </div>
-
-
-                    <h3>
-                        Персональный сайт Павла
-                    </h3>
-
-                    <p>
-                        Современный персональный сайт с лаконичным дизайном,
-                        адаптивной вёрсткой и акцентом на профессиональную
-                        презентацию.
-                    </p>
-
-
-                    <div class="project-footer">
-
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-
-                        <a
-                            href="https://pavel969188.github.io/Pavel/"
-                            class="project-link"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Смотреть проект
-                            <span>→</span>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Кофейня Север -->
-
-            <article class="project-card project-card-large">
-
-                <div class="project-preview project-preview-coffee">
-
-                    <div class="project-browser">
-
-                        <div class="browser-bar">
-
-                            <div class="browser-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                            <div class="browser-address">
-                                pavel969188.github.io/coffee-shop
-                            </div>
-
-                        </div>
-
-
-                        <div class="browser-page coffee-page">
-
-                            <div class="coffee-logo">
-                                ☕
-                            </div>
-
-                            <p class="coffee-label">
-                                SPECIALTY COFFEE
-                            </p>
-
-                            <h4>
-                                СЕВЕР
-                            </h4>
-
-                            <p class="coffee-subtitle">
-                                Кофе. Тепло. Атмосфера.
-                            </p>
-
-                            <div class="mock-button coffee-button">
-                                Посмотреть меню
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="project-info">
-
-                    <div class="project-meta">
-
-                        <span class="project-number">
-                            02
-                        </span>
-
-                        <span class="project-type">
-                            Сайт кофейни
-                        </span>
-
-                    </div>
-
-
-                    <h3>
-                        Кофейня «Север»
-                    </h3>
-
-                    <p>
-                        Атмосферный сайт кофейни с акцентом на визуальный стиль,
-                        настроение бренда и удобную навигацию для посетителей.
-                    </p>
-
-
-                    <div class="project-footer">
-
-                        <div class="project-tags">
-                            <span>Design</span>
-                            <span>Responsive</span>
-                            <span>Frontend</span>
-                        </div>
-
-                        <a
-                            href="https://pavel969188.github.io/coffee-shop/"
-                            class="project-link"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Смотреть проект
-                            <span>→</span>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <section class="section about reveal" id="about">
-
-        <p class="section-label">
-            Кто мы
-        </p>
-
-        <h2>
-            Молодая студия с современным взглядом
-        </h2>
-
-        <div class="about-box">
-
-            <p>
-                Мы создаём сайты без шаблонного подхода.
-                Для нас важны современный дизайн, понятная структура
-                и технологии, которые действительно решают задачи бизнеса.
-            </p>
-
-            <p>
-                Объединяем работу с клиентом и техническую разработку
-                в одной команде — от первой идеи до запуска проекта.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <section class="section contacts reveal" id="contacts">
-
-        <p class="section-label">
-            Связаться с нами
-        </p>
-
-        <h2>
-            Обсудим ваш проект
-        </h2>
-
-        <div class="contact-box">
-
-            <div class="contact-text">
-
-                <h3>
-                    Есть идея?
-                </h3>
-
-                <p>
-                    Расскажите нам о задаче, сроках и пожеланиях.
-                    Мы свяжемся с вами и предложим подходящий формат разработки.
-                </p>
-
-            </div>
-
-
-            <form class="contact-form">
-
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Ваше имя"
-                    required
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90" tabindex="0">
+
+    <header class="sticky-top">
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light glass-nav py-3" aria-label="Основная навигация">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#home" aria-label="Skyline Studio">
+                    <img src="images/logo.png" alt="Skyline Studio" class="brand-logo">
+                </a>
+
+                <button
+                    class="navbar-toggler border-0 shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent"
+                    aria-controls="navbarContent"
+                    aria-expanded="false"
+                    aria-label="Открыть меню"
                 >
-
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                >
-
-                <input
-                    type="text"
-                    name="contact"
-                    placeholder="Телефон / Telegram"
-                    required
-                >
-
-
-                <select name="project-type" required>
-
-                    <option value="" selected disabled>
-                        Какой сайт вам нужен?
-                    </option>
-
-                    <option value="landing">
-                        Лендинг
-                    </option>
-
-                    <option value="corporate">
-                        Корпоративный сайт
-                    </option>
-
-                    <option value="portfolio">
-                        Сайт-визитка / портфолио
-                    </option>
-
-                    <option value="modx">
-                        Разработка или доработка на MODX
-                    </option>
-
-                    <option value="other">
-                        Другое
-                    </option>
-
-                </select>
-
-
-                <textarea
-                    name="message"
-                    placeholder="Расскажите о проекте"
-                    rows="5"
-                    required
-                ></textarea>
-
-
-                <button type="submit">
-                    Отправить заявку
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
-            </form>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 pt-3 pt-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#home">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Портфолио</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <section id="home" class="hero-section d-flex align-items-center">
+            <div class="container py-5">
+                <div class="row align-items-center min-vh-75">
+                    <div class="col-12 col-lg-9 col-xl-8 hero-content">
+                        <p class="section-kicker mb-3">Веб-студия нового поколения</p>
+                        <h1 class="display-2 fw-bold lh-sm mb-4">
+                            Создаём сайты, которые работают на ваш бизнес
+                        </h1>
+                        <p class="lead fs-4 mb-4 mb-md-5 hero-lead">
+                            Разрабатываем современные сайты, лендинги и веб-решения с индивидуальным дизайном.
+                        </p>
+                        <a href="#contacts" class="btn btn-brand btn-lg px-4 px-md-5 py-3 fw-semibold">
+                            Обсудить проект
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section-block reveal">
+            <div class="container py-5">
+                <div class="row mb-4 mb-lg-5">
+                    <div class="col-lg-8">
+                        <p class="section-kicker mb-2">Что мы делаем</p>
+                        <h2 class="display-4 fw-bold mb-0">Наши услуги</h2>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card glass-card service-card h-100 border-0">
+                            <div class="card-body p-4 p-xl-5">
+                                <span class="service-number d-inline-block mb-4">01</span>
+                                <h3 class="h3 fw-bold mb-3">Лендинги</h3>
+                                <p class="mb-0 text-body-secondary">
+                                    Создаём современные посадочные страницы для услуг, продуктов и рекламных кампаний.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card glass-card service-card h-100 border-0">
+                            <div class="card-body p-4 p-xl-5">
+                                <span class="service-number d-inline-block mb-4">02</span>
+                                <h3 class="h3 fw-bold mb-3">Корпоративные сайты</h3>
+                                <p class="mb-0 text-body-secondary">
+                                    Разрабатываем сайты компаний с удобной структурой и системой управления контентом.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card glass-card service-card h-100 border-0">
+                            <div class="card-body p-4 p-xl-5">
+                                <span class="service-number d-inline-block mb-4">03</span>
+                                <h3 class="h3 fw-bold mb-3">Разработка на MODX</h3>
+                                <p class="mb-0 text-body-secondary">
+                                    Создаём и дорабатываем сайты на MODX, подключаем шаблоны и динамический контент.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-block reveal">
+            <div class="container py-5">
+                <div class="row mb-4 mb-lg-5 align-items-end">
+                    <div class="col-lg-8">
+                        <p class="section-kicker mb-2">Наши работы</p>
+                        <h2 class="display-4 fw-bold mb-3">Портфолио</h2>
+                        <p class="lead mb-0 text-body-secondary">
+                            Несколько проектов, над которыми мы уже работали. От идеи и дизайна до адаптивной вёрстки и запуска.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-xl-6">
+                        <article class="card glass-card project-card h-100 border-0 overflow-hidden">
+                            <div class="project-preview project-preview-pavel p-3 p-md-4">
+                                <div class="browser-mockup shadow-lg">
+                                    <div class="browser-toolbar d-flex align-items-center gap-2 px-3 py-2">
+                                        <div class="browser-dots d-flex gap-1" aria-hidden="true">
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <div class="browser-address flex-grow-1 text-center text-truncate px-3">
+                                            pavel969188.github.io/Pavel
+                                        </div>
+                                    </div>
+                                    <div class="mock-page mock-page-pavel p-4">
+                                        <div class="d-flex justify-content-between align-items-center mb-5">
+                                            <div class="mock-logo">P.</div>
+                                            <div class="d-flex gap-2"><span class="mock-line"></span><span class="mock-line"></span><span class="mock-line"></span></div>
+                                        </div>
+                                        <small class="text-uppercase opacity-75">Web Developer</small>
+                                        <h3 class="display-6 fw-bold mt-2 mb-4">Pavel<br>Portfolio</h3>
+                                        <span class="btn btn-sm btn-light disabled">View projects</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body p-4 p-lg-5 d-flex flex-column">
+                                <div class="d-flex justify-content-between gap-3 mb-3">
+                                    <span class="project-number">01</span>
+                                    <span class="project-type">Сайт-визитка</span>
+                                </div>
+                                <h3 class="h2 fw-bold mb-3">Персональный сайт Павла</h3>
+                                <p class="text-body-secondary mb-4">
+                                    Современный персональный сайт с лаконичным дизайном, адаптивной вёрсткой и акцентом на профессиональную презентацию.
+                                </p>
+                                <div class="mt-auto d-flex flex-wrap justify-content-between align-items-center gap-3">
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge rounded-pill text-bg-light">HTML</span>
+                                        <span class="badge rounded-pill text-bg-light">CSS</span>
+                                        <span class="badge rounded-pill text-bg-light">JavaScript</span>
+                                    </div>
+                                    <a href="https://pavel969188.github.io/Pavel/" class="project-link fw-semibold" target="_blank" rel="noopener noreferrer">
+                                        Смотреть проект <span aria-hidden="true">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-xl-6">
+                        <article class="card glass-card project-card h-100 border-0 overflow-hidden">
+                            <div class="project-preview project-preview-coffee p-3 p-md-4">
+                                <div class="browser-mockup shadow-lg">
+                                    <div class="browser-toolbar d-flex align-items-center gap-2 px-3 py-2">
+                                        <div class="browser-dots d-flex gap-1" aria-hidden="true">
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                        <div class="browser-address flex-grow-1 text-center text-truncate px-3">
+                                            pavel969188.github.io/coffee-shop
+                                        </div>
+                                    </div>
+                                    <div class="mock-page mock-page-coffee text-center p-4 d-flex flex-column justify-content-center align-items-center">
+                                        <div class="coffee-symbol mb-2" aria-hidden="true">☕</div>
+                                        <small class="text-uppercase opacity-75">Specialty Coffee</small>
+                                        <h3 class="display-5 fw-bold my-2">СЕВЕР</h3>
+                                        <p class="mb-4">Кофе. Тепло. Атмосфера.</p>
+                                        <span class="btn btn-sm btn-dark disabled">Посмотреть меню</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body p-4 p-lg-5 d-flex flex-column">
+                                <div class="d-flex justify-content-between gap-3 mb-3">
+                                    <span class="project-number">02</span>
+                                    <span class="project-type">Сайт кофейни</span>
+                                </div>
+                                <h3 class="h2 fw-bold mb-3">Кофейня «Север»</h3>
+                                <p class="text-body-secondary mb-4">
+                                    Атмосферный сайт кофейни с акцентом на визуальный стиль, настроение бренда и удобную навигацию для посетителей.
+                                </p>
+                                <div class="mt-auto d-flex flex-wrap justify-content-between align-items-center gap-3">
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge rounded-pill text-bg-light">Design</span>
+                                        <span class="badge rounded-pill text-bg-light">Responsive</span>
+                                        <span class="badge rounded-pill text-bg-light">Frontend</span>
+                                    </div>
+                                    <a href="https://pavel969188.github.io/coffee-shop/" class="project-link fw-semibold" target="_blank" rel="noopener noreferrer">
+                                        Смотреть проект <span aria-hidden="true">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-block reveal">
+            <div class="container py-5">
+                <div class="row mb-4 mb-lg-5">
+                    <div class="col-lg-9">
+                        <p class="section-kicker mb-2">Кто мы</p>
+                        <h2 class="display-4 fw-bold mb-0">Молодая студия с современным взглядом</h2>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="glass-card rounded-4 p-4 p-lg-5 h-100">
+                            <p class="fs-5 lh-lg mb-0">
+                                Мы создаём сайты без шаблонного подхода. Для нас важны современный дизайн, понятная структура и технологии, которые действительно решают задачи бизнеса.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="glass-card rounded-4 p-4 p-lg-5 h-100">
+                            <p class="fs-5 lh-lg mb-0">
+                                Объединяем работу с клиентом и техническую разработку в одной команде — от первой идеи до запуска проекта.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section-block reveal pb-5">
+            <div class="container py-5">
+                <div class="row mb-4 mb-lg-5">
+                    <div class="col-lg-8">
+                        <p class="section-kicker mb-2">Связаться с нами</p>
+                        <h2 class="display-4 fw-bold mb-0">Обсудим ваш проект</h2>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-4 p-4 p-md-5">
+                    <div class="row g-5 align-items-start">
+                        <div class="col-12 col-lg-5">
+                            <h3 class="display-6 fw-bold mb-3">Есть идея?</h3>
+                            <p class="fs-5 lh-lg text-body-secondary mb-0">
+                                Расскажите нам о задаче, сроках и пожеланиях. Мы свяжемся с вами и предложим подходящий формат разработки.
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-lg-7">
+                            <form class="contact-form needs-validation" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-6">
+                                        <label for="name" class="form-label">Ваше имя</label>
+                                        <input id="name" class="form-control form-control-lg" type="text" name="name" placeholder="Иван" required>
+                                        <div class="invalid-feedback">Укажите имя.</div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input id="email" class="form-control form-control-lg" type="email" name="email" placeholder="name@example.com" required>
+                                        <div class="invalid-feedback">Укажите корректный email.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="contact" class="form-label">Телефон / Telegram</label>
+                                        <input id="contact" class="form-control form-control-lg" type="text" name="contact" placeholder="@username или +371..." required>
+                                        <div class="invalid-feedback">Укажите способ связи.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="project-type" class="form-label">Какой сайт вам нужен?</label>
+                                        <select id="project-type" class="form-select form-select-lg" name="project-type" required>
+                                            <option value="" selected disabled>Выберите тип проекта</option>
+                                            <option value="landing">Лендинг</option>
+                                            <option value="corporate">Корпоративный сайт</option>
+                                            <option value="portfolio">Сайт-визитка / портфолио</option>
+                                            <option value="modx">Разработка или доработка на MODX</option>
+                                            <option value="other">Другое</option>
+                                        </select>
+                                        <div class="invalid-feedback">Выберите тип проекта.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Расскажите о проекте</label>
+                                        <textarea id="message" class="form-control form-control-lg" name="message" rows="5" placeholder="Коротко опишите задачу" required></textarea>
+                                        <div class="invalid-feedback">Добавьте описание проекта.</div>
+                                    </div>
+
+                                    <div class="col-12 d-grid d-sm-flex align-items-center gap-3">
+                                        <button class="btn btn-brand btn-lg px-4 py-3 fw-semibold" type="submit">
+                                            <span class="submit-text">Отправить заявку</span>
+                                            <span class="spinner-border spinner-border-sm ms-2 d-none" aria-hidden="true"></span>
+                                        </button>
+                                        <div class="form-status flex-grow-1" role="status" aria-live="polite"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer py-5">
+        <div class="container">
+            <div class="row g-4 g-lg-5 py-4">
+                <div class="col-12 col-lg-4">
+                    <a href="#home" class="d-inline-flex mb-3" aria-label="Skyline Studio">
+                        <img src="images/logo.png" alt="Skyline Studio" class="footer-logo">
+                    </a>
+                    <p class="text-body-secondary mb-0 footer-description">
+                        Создаём современные сайты, которые помогают бизнесу выглядеть убедительно и работать эффективнее.
+                    </p>
+                </div>
+
+                <div class="col-6 col-lg-2 offset-lg-1">
+                    <p class="footer-title mb-3">Навигация</p>
+                    <ul class="list-unstyled d-grid gap-2 mb-0">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#about">О нас</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <p class="footer-title mb-3">Проект</p>
+                    <ul class="list-unstyled d-grid gap-2 mb-0">
+                        <li><a href="#contacts">Обсудить проект</a></li>
+                        <li><a href="#contacts">Оставить заявку</a></li>
+                        <li><a href="#portfolio">Посмотреть работы</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <p class="footer-title mb-3">Есть задача?</p>
+                    <h3 class="h3 fw-bold mb-4">Давайте сделаем хороший сайт.</h3>
+                    <a href="#contacts" class="btn btn-outline-dark rounded-pill px-4">Начать проект →</a>
+                </div>
+            </div>
+
+            <div class="border-top border-dark border-opacity-10 pt-4 mt-4 d-flex flex-column flex-sm-row justify-content-between gap-2">
+                <p class="mb-0 small">© 2026 Skyline Studio</p>
+                <a href="#home" class="small fw-semibold">Наверх ↑</a>
+            </div>
         </div>
-
-    </section>
-
-
-    <!-- Футер -->
-
-    <footer class="site-footer">
-
-        <div class="footer-main">
-
-
-            <div class="footer-brand">
-
-                <a href="#home" class="footer-logo-image">
-
-                    <img
-                        src="images/logo.png"
-                        alt="Skyline Studio"
-                    >
-
-                </a>
-
-                <p>
-                    Создаём современные сайты,
-                    которые помогают бизнесу выглядеть убедительно
-                    и работать эффективнее.
-                </p>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <p class="footer-title">
-                    Навигация
-                </p>
-
-                <a href="#home">
-                    Главная
-                </a>
-
-                <a href="#services">
-                    Услуги
-                </a>
-
-                <a href="#portfolio">
-                    Портфолио
-                </a>
-
-                <a href="#about">
-                    О нас
-                </a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <p class="footer-title">
-                    Проект
-                </p>
-
-                <a href="#contacts">
-                    Обсудить проект
-                </a>
-
-                <a href="#contacts">
-                    Оставить заявку
-                </a>
-
-                <a href="#portfolio">
-                    Посмотреть работы
-                </a>
-
-            </div>
-
-
-            <div class="footer-cta">
-
-                <p class="footer-title">
-                    Есть задача?
-                </p>
-
-                <h3>
-                    Давайте сделаем
-                    хороший сайт.
-                </h3>
-
-                <a href="#contacts" class="footer-button">
-                    Начать проект →
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 Skyline Studio
-            </p>
-
-            <a href="#home">
-                Наверх ↑
-            </a>
-
-        </div>
-
     </footer>
 
-
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-
 </body>
 </html>
